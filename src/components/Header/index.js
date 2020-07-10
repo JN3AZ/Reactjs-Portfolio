@@ -46,7 +46,7 @@ export default class Header extends Component {
               <hr />
               <ul className="social">
                 {siteData.socialLinks &&
-                  resumeData.socialLinks.map((item) => {
+                  siteData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
                         <a href={item.url} target="_blank">
