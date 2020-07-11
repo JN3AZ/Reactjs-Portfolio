@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./style.css";
 export default class About extends Component {
   render() {
     let siteData = this.props.siteData;
@@ -6,7 +7,7 @@ export default class About extends Component {
       <section id="about">
         <div className="row">
           <div className="three columns">
-            <img className="profile-pic" src="public/images/profile-picture.jpg" alt="profile" />
+            <img className="profile-pic" src="./images/profile-picture.jpg" alt="profile" />
           </div>
 
           <div className="nine columns main-col">
