@@ -6,7 +6,7 @@ export default class Porfolio extends Component {
       <section id="portfolio">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>View some of my projects here</h1>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"
@@ -21,6 +21,8 @@ export default class Porfolio extends Component {
                           <div className="overlay">
                             <div className="portfolio-item-meta">
                               <h5>{item.name}</h5>
+                              <h5>{item.projectlink}</h5>
+                              <h5>{item.projectlink2}</h5>
                               <p>{item.description}</p>
                             </div>
                           </div>

@@ -1,5 +1,4 @@
 let siteData = {
-    "imagebaseurl":"",
     "role": "My name is James Nowak. I am a Full Stack Web Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your twitterid",
@@ -25,7 +24,22 @@ let siteData = {
     "address":"Tucson Az",
     "website":"https://github.com/JN3AZ",
 
-    "education":[],
+    "education":[
+      {
+        "UniversityName":"University of Arizona",
+        "specialization":"Full Stack Web Development Bootcamp",
+        "MonthOfPassing":"July",
+        "YearOfPassing":"2020",
+        "Achievements":"Certificate of completion"
+      },
+      {
+        "UniversityName":"Pima Community College",
+        "specialization":"Asociates Degree in General Studies",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2020",
+        "Achievements":"working towards a Bachelors degree in computer science"
+      }
+    ],
     
     "work":[
       {
@@ -44,7 +58,51 @@ let siteData = {
       }
     ],
     
-    "portfolio":[],
+    "portfolio":[
+      {
+        "name":"project1",
+        "description":"password-generator",
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/Password-generator",
+        "projectlink2":"https://jn3az.github.io/Password-generator"
+      },
+      {
+        "name":"project2",
+        "description":"Note-Taker-app",
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/Note-Taker-app",
+        "projectlink2":"https://lit-waters-54115.herokuapp.com"
+      },
+      {
+        "name":"project3",
+        "description":"Burger-Logger",  
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/burger-logger",
+        "projectlink2":"https://infinite-dawn-34453.herokuapp.com/burgers"
+      },
+      {
+        "name":"project4",
+        "description":"Fitness-Tracker",
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/TrackHealthFit",
+        "projectlink2":"https://ancient-ocean-94823.herokuapp.com"
+      },
+      {
+        "name":"project5",
+        "description":"Budget-Tracker",  
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/Progressive-Budget-Tracker",
+        "projectlink2":"https://flannel-pylon-59780.herokuapp.com"
+      },
+      {
+        "name":"project6",
+        "description":"React-Employee-Directory",
+        "imgurl":"",
+        "projectlink":"https://github.com/JN3AZ/Employee-Directory-React",
+        "projectlink2":"https://jn3az.github.io/Employee-Directory-React"
+      }
+
+    ],
     
   }
   
