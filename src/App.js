@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header/index';
 import About from './components/pages/About/index';
 import Footer from './components/Footer/index';
-import siteData from './siteData';
+import siteData from './data/siteData';
 class App extends Component {
   render() {
     return (

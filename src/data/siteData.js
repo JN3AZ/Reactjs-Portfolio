@@ -1,10 +1,9 @@
 let siteData = {
     "imagebaseurl":"",
-    "name": "James Nowak",
-    "role": "Full Stack Web Developer",
+    "role": "My name is James Nowak. I am a Full Stack Web Developer",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your twitterid",
-    "roleDescription": " I have a passion for creating ranging from websites, applications, digital media and music. I love anything that allows for creativity. I am enthralled with learning about new technologies, software, and computer languages. I have always loved all things computers my whole life and hope to go further into the develpoment world.",
+    "roleDescription": " and I have a passion for creating: websites, applications, digital media, and music. I am enthralled with new technologies, software, and computer languages and, as a creative person, I have an innovative and detail-oriented approach in the development world.",
     "socialLinks":[
         {
           "name":"linkedin",
