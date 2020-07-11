@@ -3,7 +3,8 @@ header {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(../../../public/images/jake-hurley-6VuklDcXrcE-unsplash.jpg) no-repeat top center;
+    background: #161415 no-repeat top center;
+    background-image: url(./images/jake-hurley-6VuklDcXrcE-unsplash.jpg);
     background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;

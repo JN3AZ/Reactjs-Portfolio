@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <Header siteData={siteData}/>
         <About siteData={siteData}/>
-        <Portfolio resumeData={siteData}/>
+        <Portfolio siteData={siteData}/>
         <Footer siteData={siteData}/>
       </div>
     );
