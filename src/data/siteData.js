@@ -1,7 +1,7 @@
 let siteData = {
     "role": "My name is James Nowak. I am a Full Stack Web Developer",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your twitterid",
+    "linkedinId":" https://www.linkedin.com/in/jn3az520",
+    "twitterId": " https://twitter.com/111_520",
     "roleDescription": " and I have a passion for creating: websites, applications, digital media, and music. I am enthralled with new technologies, software, and computer languages and, as a creative person, I have an innovative and detail-oriented approach in the development world.",
     "socialLinks":[
         {
@@ -21,7 +21,9 @@ let siteData = {
         }
       ],
     "aboutme":"Full-Stack web developer ascending from a hospitality background allowing for the ability to build a more intuitive user friendly experience when developing. Recently earned a certificate in full stack development from the University of Arizona, with newly developed skills in JavaScript, HTML, CSS, Express.js React.js, Node.js, MYSQL, MongoDB and many others that allow to build a responsive web design. Known as a creative thinker and an innovative problem solver, outgoing and friendly. Motivated to work hard always while doing things the correct way. A passion for creating especially towards developing apps. Focused on mobile-first design and development. With each assigned project, my aim is to create a useful and efficient application that allows the audience to have an easy and enjoyable experience. During my recent full stack web development program I worked on several group projects with teams of four to develop various applications that helped solidify a strong ability to work well with others in a team setting. I’m excited to leverage my skills of attention to detail, fast-paced learning, and quality-driven work to join a successful team and start my career in this field.",
+
     "address":"Tucson Az",
+    
     "website":"https://github.com/JN3AZ",
 
     "education":[
@@ -62,7 +64,7 @@ let siteData = {
       {
         "name":"project1",
         "description":"password-generator",
-        "imgurl":"",
+        "imgurl":"./images/Pass-gen.PNG",
         "projectlink":"https://github.com/JN3AZ/Password-generator",
         "projectlink2":"https://jn3az.github.io/Password-generator"
       },
