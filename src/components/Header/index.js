@@ -25,6 +25,11 @@ export default class Header extends Component {
                 </a>
               </li>
               <li>
+                <a className="smoothscroll" href="#resume">
+                  Background
+                </a>
+              </li>
+              <li>
                 <a className="smoothscroll" href="#portfolio">
                   Portfolio
                 </a>
@@ -42,7 +47,8 @@ export default class Header extends Component {
             <div className="banner-text">
               <h1 className="responsive-headline">Greetings{siteData.name}.</h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
-               {siteData.role}{siteData.roleDescription}
+                {siteData.role}
+                {siteData.roleDescription}
               </h3>
               <hr />
               <ul className="social">
@@ -50,7 +56,11 @@ export default class Header extends Component {
                   siteData.socialLinks.map((item) => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className={item.className}></i>
                         </a>
                       </li>

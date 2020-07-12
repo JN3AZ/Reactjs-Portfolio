@@ -5,16 +5,19 @@ let siteData = {
     "roleDescription": " and I have a passion for creating: websites, applications, digital media, and music. I am enthralled with new technologies, software, and computer languages and, as a creative person, I have an innovative and detail-oriented approach in the development world.",
     "socialLinks":[
         {
+          "id":1,
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/jn3az520/",
           "className":"fa fa-linkedin"
         },
         {
+          "id":2,
           "name":"github",
           "url":"https://github.com/JN3AZ",
           "className":"fa fa-github"
         },
         {
+          "id":3,
           "name":"twitter",
           "url":"https://twitter.com/111_520",
           "className":"fa fa-twitter"
@@ -28,6 +31,7 @@ let siteData = {
 
     "education":[
       {
+        "id":1,
         "UniversityName":"University of Arizona",
         "specialization":"Full Stack Web Development Bootcamp",
         "MonthOfPassing":"July",
@@ -35,6 +39,7 @@ let siteData = {
         "Achievements":"Certificate of completion"
       },
       {
+        "id":2,
         "UniversityName":"Pima Community College",
         "specialization":"Asociates Degree in General Studies",
         "MonthOfPassing":"May",
@@ -45,6 +50,7 @@ let siteData = {
     
     "work":[
       {
+        "id":1,
         "CompanyName":"Arizona Inn",
         "specialization":"Chef",
         "MonthOfLeaving":"March",
@@ -52,6 +58,7 @@ let siteData = {
         "Achievements":"Years of Experience in Fine Dining"
       },
       {
+        "id":2,
         "CompanyName":"Enlighteneering Inc.",
         "specialization":"Digital Media Specialist",
         "MonthOfLeaving":"February",
@@ -62,13 +69,15 @@ let siteData = {
     
     "portfolio":[
       {
+        "id":1,
         "name":"project1",
         "description":"password-generator",
-        "imgurl":"./images/Pass-gen.PNG",
+        "imgurl":"/static/media/Pass-gen.PNG",
         "projectlink":"https://github.com/JN3AZ/Password-generator",
         "projectlink2":"https://jn3az.github.io/Password-generator"
       },
       {
+        "id":2,
         "name":"project2",
         "description":"Note-Taker-app",
         "imgurl":"",
@@ -76,6 +85,7 @@ let siteData = {
         "projectlink2":"https://lit-waters-54115.herokuapp.com"
       },
       {
+        "id":3,
         "name":"project3",
         "description":"Burger-Logger",  
         "imgurl":"",
@@ -83,6 +93,7 @@ let siteData = {
         "projectlink2":"https://infinite-dawn-34453.herokuapp.com/burgers"
       },
       {
+        "id":4,
         "name":"project4",
         "description":"Fitness-Tracker",
         "imgurl":"",
@@ -90,6 +101,7 @@ let siteData = {
         "projectlink2":"https://ancient-ocean-94823.herokuapp.com"
       },
       {
+        "id":5,
         "name":"project5",
         "description":"Budget-Tracker",  
         "imgurl":"",
@@ -97,6 +109,7 @@ let siteData = {
         "projectlink2":"https://flannel-pylon-59780.herokuapp.com"
       },
       {
+        "id":6,
         "name":"project6",
         "description":"React-Employee-Directory",
         "imgurl":"",
