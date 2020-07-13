@@ -62,7 +62,7 @@ export default class Portfolio extends Component {
   }
 
   render() {
-    let siteData = this.props.siteData;
+    
     return (
       <section id="portfolio">
         <div className="row">
