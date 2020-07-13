@@ -14,7 +14,7 @@
     letter-spacing: 1px;
  }
  #background h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid #059742;
     padding-bottom: 6px;
  }
  #background h3 {
@@ -31,7 +31,7 @@
  }
  #background .info {
     font: 16px/24px 'librebaskerville-italic', serif;
-    color: #6E7881;
+    color: #08771b;
     margin-bottom: 18px;
     margin-top: 9px;
  }
