@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d68311b7cc635895b4ed1e6d070e59e",
+    "revision": "d78415530738751104da3f19cea07d31",
     "url": "/Reactjs-Portfolio/index.html"
   },
   {
-    "revision": "1c2cb2977d6e1a1aa6e5",
-    "url": "/Reactjs-Portfolio/static/css/main.451627d9.chunk.css"
+    "revision": "83ed31d9ace97c37f2bb",
+    "url": "/Reactjs-Portfolio/static/css/main.db1e50b4.chunk.css"
   },
   {
-    "revision": "6ccb9917b6370506be36",
-    "url": "/Reactjs-Portfolio/static/js/2.a1bd3bd2.chunk.js"
+    "revision": "474eca0ce847fe9d9db0",
+    "url": "/Reactjs-Portfolio/static/js/2.be8b84fa.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Reactjs-Portfolio/static/js/2.a1bd3bd2.chunk.js.LICENSE.txt"
+    "url": "/Reactjs-Portfolio/static/js/2.be8b84fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c2cb2977d6e1a1aa6e5",
-    "url": "/Reactjs-Portfolio/static/js/main.1baf4315.chunk.js"
+    "revision": "83ed31d9ace97c37f2bb",
+    "url": "/Reactjs-Portfolio/static/js/main.e965b8d2.chunk.js"
   },
   {
     "revision": "8c4a957da461c29f2ee4",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a345f3832aed955a359ec0461094151",
     "url": "/Reactjs-Portfolio/static/media/gabriele-motter-YOwu-KFBRmU-unsplash.1a345f38.jpg"
+  },
+  {
+    "revision": "62dd63b97605862530f3f176b15c1e3c",
+    "url": "/Reactjs-Portfolio/static/media/profile-picture.62dd63b9.jpg"
   }
 ]);
