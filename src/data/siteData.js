@@ -67,58 +67,6 @@ let siteData = {
       }
     ],
     
-    "portfolio":[
-      {
-        "id":1,
-        "name":"project1",
-        "description":"password-generator",
-        "imgurl":"/static/media/Pass-gen.PNG",
-        "projectlink":"https://github.com/JN3AZ/Password-generator",
-        "projectlink2":"https://jn3az.github.io/Password-generator"
-      },
-      {
-        "id":2,
-        "name":"project2",
-        "description":"Note-Taker-app",
-        "imgurl":"",
-        "projectlink":"https://github.com/JN3AZ/Note-Taker-app",
-        "projectlink2":"https://lit-waters-54115.herokuapp.com"
-      },
-      {
-        "id":3,
-        "name":"project3",
-        "description":"Burger-Logger",  
-        "imgurl":"",
-        "projectlink":"https://github.com/JN3AZ/burger-logger",
-        "projectlink2":"https://infinite-dawn-34453.herokuapp.com/burgers"
-      },
-      {
-        "id":4,
-        "name":"project4",
-        "description":"Fitness-Tracker",
-        "imgurl":"",
-        "projectlink":"https://github.com/JN3AZ/TrackHealthFit",
-        "projectlink2":"https://ancient-ocean-94823.herokuapp.com"
-      },
-      {
-        "id":5,
-        "name":"project5",
-        "description":"Budget-Tracker",  
-        "imgurl":"",
-        "projectlink":"https://github.com/JN3AZ/Progressive-Budget-Tracker",
-        "projectlink2":"https://flannel-pylon-59780.herokuapp.com"
-      },
-      {
-        "id":6,
-        "name":"project6",
-        "description":"React-Employee-Directory",
-        "imgurl":"",
-        "projectlink":"https://github.com/JN3AZ/Employee-Directory-React",
-        "projectlink2":"https://jn3az.github.io/Employee-Directory-React"
-      }
-
-    ],
-    
   }
   
   export default siteData

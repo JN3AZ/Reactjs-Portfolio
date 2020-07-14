@@ -16,7 +16,7 @@ export default class Background extends Component {
             {siteData.education &&
               siteData.education.map((item) => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.id}>
                     <div className="twelve columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
@@ -44,7 +44,7 @@ export default class Background extends Component {
             {siteData.work &&
               siteData.work.map((item) => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.id}>
                     <div className="twelve columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
