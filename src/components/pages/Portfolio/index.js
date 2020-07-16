@@ -59,10 +59,15 @@ export default class Portfolio extends Component {
         projectlink2: "https://jn3az.github.io/Employee-Directory-React",
       },
     ];
-  }
+    this.openLink = function(e) {
+      e.preventDefault();
+      let url = e.target.dataset.link;
+      window.open(url, "_blank");
+      
+    };
+  };
 
   render() {
-    
     return (
       <section id="portfolio">
         <div className="row">
@@ -75,25 +80,30 @@ export default class Portfolio extends Component {
               {this.portfolio &&
                 this.portfolio.map((item) => {
                   return (
-                    <div className="columns portfolio-item" key={item.id}>
-                      <div className="item-wrap">
-                        <a href="#modal-01">
-                          <img
-                            src={`${item.imgurl}`}
-                            alt="screenshot of project"
-                            className="item-img"
-                          />
-                          <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}</h5>
-                              <h5>{item.projectlink}</h5>
-                              <h5>{item.projectlink2}</h5>
-                              <p>{item.description}</p>
+
+                      <div className="columns portfolio-item" key={item.id}>
+                        <div className="item-wrap">
+                          <a href="#modal-01">
+                            <img
+                              src={`${item.imgurl}`}
+                              alt="screenshot of project"
+                              className="item-img"
+                            />
+                            </a>
+                            <div className="overlay">
+                              <div className="portfolio-item-meta">
+                                <p>{item.description}</p>
+                                <h5>
+                                  <span data-link={item.projectlink} onClick={this.openLink}>{item.projectlink}</span>
+                                </h5>
+                                <h5>
+                                <span data-link={item.projectlink2} onClick={this.openLink}>{item.projectlink2}</span>
+                                </h5>
+                              </div>
                             </div>
-                          </div>
-                        </a>
+                        </div>
                       </div>
-                    </div>
+                   
                   );
                 })}
             </div>
