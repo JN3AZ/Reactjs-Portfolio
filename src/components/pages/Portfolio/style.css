@@ -1,5 +1,5 @@
 #portfolio {
-    background: rgb(41, 41, 41);
+    background: rgb(0, 0, 0);
     padding-top: 90px;
     padding-bottom: 60px;
  }
@@ -9,7 +9,7 @@
     letter-spacing: 1px;
     text-align: center;
     margin-bottom: 48px;
-    color: #95A3A3;
+    color: #299200;
  }
  
  /* Portfolio Content */

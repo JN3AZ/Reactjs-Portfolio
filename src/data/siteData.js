@@ -7,7 +7,7 @@ let siteData = {
         {
           "id":1,
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/jn3az520/",
+          "url":"https://www.linkedin.com/in/jn3/",
           "className":"fa fa-linkedin"
         },
         {

@@ -15,7 +15,7 @@
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #000000;
 }
 #about .profile-pic {
    position: relative;
@@ -31,7 +31,7 @@
 #about .main-col { padding-right: 5%; }
 #about .download .button {
    margin-top: 6px;
-   background: #444;
+   background: rgb(141, 38, 38);
 }
 #about .download .button:hover {
    background: #fff;
@@ -42,7 +42,7 @@
    font-size: 20px;
 }
 #about {
-   background: #000000ed;
+   background: #050505;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
